@@ -7,7 +7,7 @@ public class Elements {
 		Button bt = new Button();
 		bt.click();
 		bt.setText("Click Button-->Element Class");
-		bt.submit();
+		
 		
 		 WebElement we = new CheckBoxButton();
 		 we.setText("CheckBox-->Element");
@@ -20,5 +20,11 @@ public class Elements {
 		 RadioButton rb1=new RadioButton();
 		 rb1.selectRadioButton();
 		 bt1.submit();
+		 
+	
+		 
 	}
+	
+	
+	
 }
