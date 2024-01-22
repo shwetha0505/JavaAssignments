@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="url" value="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form"></parameter>
+  <parameter name="year" value="2018"></parameter>
+  <parameter name="month" value="October"></parameter>
+
+  <test name="payment" verbose="5">
+    <classes>
+   <class name="testng.assignments.CardDetails"/>
+    </classes>
+  </test> <!-- LeadTest -->
+</suite> <!-- Suite -->

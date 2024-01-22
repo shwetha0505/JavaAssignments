@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="url" value="https://sso.redhat.com"></parameter>
+  <test name="login" verbose="5">
+    <classes>
+   <class name="testng.assignments.LoginDetails"/>
+    </classes>
+  </test> <!-- LeadTest -->
+</suite> <!-- Suite -->
